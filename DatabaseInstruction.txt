@@ -1,0 +1,2 @@
+Note!
+the name of the database is AppointmentSchedule.bak please open it in msql before running the system.
