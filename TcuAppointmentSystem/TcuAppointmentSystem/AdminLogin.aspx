@@ -9,11 +9,15 @@
 
         .auto-style1 {
             font-size: xx-large;
-            color: #6699FF;
+            color: #000000;
             text-align: center;
+            width: 1217px;
+            margin-left: 119px;
+            margin-right: 0px;
+            margin-top: 100px;
         }
         .auto-style2 {
-            width: 100%;
+            width: 93%;
         }
         .auto-style6 {
             width: 577px;
@@ -21,7 +25,7 @@
             height: 33px;
         }
         .auto-style7 {
-            width: 231px;
+            width: 255px;
             height: 33px;
         }
         .auto-style8 {
@@ -32,33 +36,52 @@
             text-align: right;
         }
         .auto-style5 {
-            width: 231px;
+            width: 255px;
         }
         .auto-style9 {
             width: 577px;
             height: 40px;
         }
         .auto-style10 {
-            width: 231px;
+            width: 255px;
             height: 40px;
         }
         .auto-style11 {
             height: 40px;
         }
+        body {
+            background-image: url(assets/bb.jpg);
+            background-size: cover;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .button {
+            transition-duration: 0.4s;
+            background-color: white;
+            border:2px solid #555555;
+        }
+        .button:hover{
+            background-color: #555555;
+            color:white;
+            
+        }
+        .auto-style12 {
+            width: 1276px;
+            margin-left: 115px;
+        }
     </style>
 </head>
-<body>
+<body style="width: 1395px; height: 213px">
     <form id="form1" runat="server">
     <div>
     
         <div class="auto-style1">
             <strong>Admin Login</strong></div>
-        <hr />
+        <hr class="auto-style12" />
         <table class="auto-style2">
             <tr>
                 <td class="auto-style6">Username:</td>
                 <td class="auto-style7">
-                    <asp:TextBox ID="TextBox_useradmin" runat="server" placeholder="Username" Width="200px"></asp:TextBox>
+                    <asp:TextBox ID="TextBox_useradmin" runat="server" placeholder="Username" Font-Size="Medium" Height="30px" Width="280px"></asp:TextBox>
                 </td>
                 <td class="auto-style8">
                     <asp:RequiredFieldValidator ID="RequiredFieldValidator1" runat="server" ControlToValidate="TextBox_useradmin" ErrorMessage="Username is Required" ForeColor="Red"></asp:RequiredFieldValidator>
@@ -67,7 +90,7 @@
             <tr>
                 <td class="auto-style4">Password:</td>
                 <td class="auto-style5">
-                    <asp:TextBox ID="TextBox_passwordadmin" runat="server" placeholder="Password" TextMode="Password" Width="200px"></asp:TextBox>
+                    <asp:TextBox ID="TextBox_passwordadmin" runat="server" placeholder="Password" TextMode="Password" Font-Size="Medium" Height="30px" Width="280px"></asp:TextBox>
                 </td>
                 <td>
                     <asp:RequiredFieldValidator ID="RequiredFieldValidator2" runat="server" ControlToValidate="TextBox_passwordadmin" ErrorMessage="Password is Required" ForeColor="Red"></asp:RequiredFieldValidator>
@@ -76,9 +99,9 @@
             <tr>
                 <td class="auto-style9"></td>
                 <td class="auto-style10">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                    <asp:Button ID="Button" runat="server" align="center" BorderColor="#99CCFF" BorderStyle="Dotted" Font-Names="Calibri Light" Font-Overline="False" Font-Size="Small" Font-Underline="True" ForeColor="#6699FF" OnClick="Button1_Click" Text="Login" ToolTip="Login to Admin Page" Width="80px" />
+                    <asp:Button ID="Button" runat="server" align="center" OnClick="Button1_Click" Text="Login" ToolTip="Login to Admin Page" Font-Size="Medium" Height="50px" Width="100px" CssClass="button" />
                     &nbsp;
-                    <asp:Button ID="Button2" runat="server" align="center" BorderColor="#99CCFF" BorderStyle="Dotted" CausesValidation="False" Font-Names="Calibri Light" Font-Size="Small" Font-Strikeout="False" Font-Underline="True" ForeColor="#6699FF" OnClick="Button2_Click" Text="Back" ToolTip="Back to Home Page" Width="80px" />
+                    <asp:Button ID="Button2" runat="server" align="center" OnClick="Button2_Click" Text="Back" ToolTip="Back to Home Page" Font-Size="Medium" Height="50px" Width="100px" CssClass="button" />
                 </td>
                 <td class="auto-style11"></td>
             </tr>

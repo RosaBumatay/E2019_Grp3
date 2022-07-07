@@ -8,9 +8,15 @@
     <style type="text/css">
         .auto-style1 {
             font-size: x-large;
+            text-align: center;
         }
         .auto-style3 {
             text-align: left;
+        }
+        body {
+            background-image: url(assets/bb.jpg);
+            background-size: cover;
+            font-family: Arial, Helvetica, sans-serif;
         }
     </style>
 </head>

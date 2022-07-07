@@ -14,7 +14,7 @@
         }
         .auto-style5 {
             font-size: x-large;
-            color: #FF3300;
+            color: #000;
         }
         .auto-style7 {
             width: 199px;
@@ -95,6 +95,21 @@
         .auto-style30 {
             margin-bottom: 0px;
         }
+        body {
+            background-image: url(assets/bb.jpg);
+            background-size: cover;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .button {
+            transition-duration: 0.4s;
+            background-color: white;
+            border:2px solid #555555;
+        }
+        .button:hover{
+            background-color: #555555;
+            color:white;
+            
+        }
     </style>
 </head>
 <body>
@@ -127,7 +142,7 @@
                         <asp:TextBox ID="Fname" runat="server" Enabled="False"></asp:TextBox>
                 </td>
                 <td class="auto-style13">
-                        <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="Get Full Name" Width="134px" CausesValidation="False" />
+                        <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="Get Full Name" Width="134px" CausesValidation="False" CssClass="button" />
                     </td>
                 <td class="auto-style23">First Name:</td>
                 <td class="auto-style21">
@@ -223,16 +238,16 @@
             </tr>
             <tr>
                 <td class="auto-style24">
-                    <asp:Button ID="Button3" runat="server" OnClick="Button3_Click" Text="Logout" CausesValidation="False" OnClientClick="return confirm('Are you sure you want to log out ?')" />
+                    <asp:Button ID="Button3" runat="server" OnClick="Button3_Click" Text="Logout" CausesValidation="False" OnClientClick="return confirm('Are you sure you want to log out ?')" CssClass="button" />
                 </td>
                 <td class="auto-style25"></td>
                 <td class="auto-style26"></td>
                 <td class="auto-style27">
-                                    <asp:Button ID="Button2" runat="server" Text="Book Appointment" OnClick="Button2_Click" CssClass="auto-style30"/>
+                                    <asp:Button ID="Button2" runat="server" Text="Book Appointment" OnClick="Button2_Click" CssClass="button"/>
                                 </td>
                 <td class="auto-style28"></td>
                 <td class="auto-style29">
-                    <asp:Button ID="Button4" runat="server" OnClick="Button4_Click" Text="Cancel Appointment" OnClientClick="return confirm('Are you sure you want cancel appointment ?')"/>
+                    <asp:Button ID="Button4" runat="server" OnClick="Button4_Click" Text="Cancel Appointment" OnClientClick="return confirm('Are you sure you want cancel appointment ?')" CssClass="button"/>
                 </td>
             </tr>
         </table>

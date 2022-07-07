@@ -77,6 +77,21 @@
             width: 292px;
             height: 39px;
         }
+        body {
+            background-image: url(assets/bb.jpg);
+            background-size: cover;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .button {
+            transition-duration: 0.4s;
+            background-color: white;
+            border:2px solid #555555;
+        }
+        .button:hover{
+            background-color: #555555;
+            color:white;
+            
+        }
     </style>
 </head>
 <body>
@@ -89,7 +104,7 @@
         <table class="auto-style2">
             <tr>
                 <td class="auto-style3">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                    <asp:Button ID="Button3" runat="server" align="center" CausesValidation="False" OnClick="Button3_Click1" Text="Get" Width="90px" />
+                    <asp:Button ID="Button3" runat="server" align="center" CausesValidation="False" OnClick="Button3_Click1" Text="Get" Width="90px" Font-Size="Medium" CssClass="button" />
                     Student ID:</td>
                 <td class="auto-style12">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                     <asp:TextBox ID="Studid" runat="server" placeholder="Student ID" Width="280px"></asp:TextBox>
@@ -148,19 +163,19 @@
             <tr>
                 <td class="auto-style17"></td>
                 <td class="auto-style18">
-                    <asp:Button ID="Button1" runat="server" align="left" OnClick="Button1_Click" style="height: 35px" Text="Register" Width="112px" />
+                    <asp:Button ID="Button1" runat="server" align="left" OnClick="Button1_Click" style="height: 35px" Text="Register" Font-Size="Medium" Width="112px" CssClass="button" />
                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                    <asp:Button ID="Button2" runat="server" align="right" CausesValidation="False" OnClick="Button2_Click" style="height: 35px" Text="Clear" Width="112px" />
+                    <asp:Button ID="Button2" runat="server" align="right" CausesValidation="False" OnClick="Button2_Click" style="height: 35px" Text="Clear" Font-Size="Medium" Width="112px" CssClass="button" />
                 </td>
                 <td class="auto-style19"></td>
             </tr>
             <tr>
                 <td class="auto-style11">
-                    <asp:Button ID="Button6" runat="server" OnClick="Button6_Click" Text="Back" Width="106px" CausesValidation="False" />
+                    <asp:Button ID="Button6" runat="server" OnClick="Button6_Click" Text="Back" Font-Size="Medium" Width="106px" CausesValidation="False" CssClass="button" />
                     &nbsp;&nbsp;&nbsp; </td>
                 <td class="auto-style13">
-                    <asp:Button ID="Button4" runat="server" align="left" CausesValidation="False" OnClientClick="return confirm('Are you sure you want to delete the data ?')" OnClick="Button4_Click" Text="Delete" Width="112px" />
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<asp:Button ID="Button5" runat="server" OnClientClick="return confirm('Are you sure you want to update the data ?')" OnClick="Button5_Click" Text="Update" Width="109px" />
+                    <asp:Button ID="Button4" runat="server" align="left" CausesValidation="False" OnClientClick="return confirm('Are you sure you want to delete the data ?')" OnClick="Button4_Click" Text="Delete" Font-Size="Medium" Width="112px" CssClass="button" />
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<asp:Button ID="Button5" runat="server" OnClientClick="return confirm('Are you sure you want to update the data ?')" OnClick="Button5_Click" Text="Update" Font-Size="Medium" Width="109px" CssClass="button" />
                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </td>
                 <td class="auto-style8"></td>
             </tr>

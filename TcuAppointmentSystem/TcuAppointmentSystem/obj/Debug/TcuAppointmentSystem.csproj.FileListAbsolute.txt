@@ -31,3 +31,38 @@ c:\users\rosalie\documents\visual studio 2015\Projects\TcuAppointmentSystem\TcuA
 c:\users\rosalie\documents\visual studio 2015\Projects\TcuAppointmentSystem\TcuAppointmentSystem\obj\Debug\TcuAppointmentSystem.csprojResolveAssemblyReference.cache
 c:\users\rosalie\documents\visual studio 2015\Projects\TcuAppointmentSystem\TcuAppointmentSystem\obj\Debug\TcuAppointmentSystem.dll
 c:\users\rosalie\documents\visual studio 2015\Projects\TcuAppointmentSystem\TcuAppointmentSystem\obj\Debug\TcuAppointmentSystem.pdb
+C:\Users\user\AndroidStudioProjects\E2019_Grp3\TcuAppointmentSystem\TcuAppointmentSystem\bin\ApplicationInsights.config
+C:\Users\user\AndroidStudioProjects\E2019_Grp3\TcuAppointmentSystem\TcuAppointmentSystem\bin\roslyn\csc.exe
+C:\Users\user\AndroidStudioProjects\E2019_Grp3\TcuAppointmentSystem\TcuAppointmentSystem\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\user\AndroidStudioProjects\E2019_Grp3\TcuAppointmentSystem\TcuAppointmentSystem\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\user\AndroidStudioProjects\E2019_Grp3\TcuAppointmentSystem\TcuAppointmentSystem\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\user\AndroidStudioProjects\E2019_Grp3\TcuAppointmentSystem\TcuAppointmentSystem\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\user\AndroidStudioProjects\E2019_Grp3\TcuAppointmentSystem\TcuAppointmentSystem\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\user\AndroidStudioProjects\E2019_Grp3\TcuAppointmentSystem\TcuAppointmentSystem\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\user\AndroidStudioProjects\E2019_Grp3\TcuAppointmentSystem\TcuAppointmentSystem\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\user\AndroidStudioProjects\E2019_Grp3\TcuAppointmentSystem\TcuAppointmentSystem\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\user\AndroidStudioProjects\E2019_Grp3\TcuAppointmentSystem\TcuAppointmentSystem\bin\roslyn\vbc.exe
+C:\Users\user\AndroidStudioProjects\E2019_Grp3\TcuAppointmentSystem\TcuAppointmentSystem\bin\roslyn\VBCSCompiler.exe
+C:\Users\user\AndroidStudioProjects\E2019_Grp3\TcuAppointmentSystem\TcuAppointmentSystem\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\user\AndroidStudioProjects\E2019_Grp3\TcuAppointmentSystem\TcuAppointmentSystem\bin\TcuAppointmentSystem.dll.config
+C:\Users\user\AndroidStudioProjects\E2019_Grp3\TcuAppointmentSystem\TcuAppointmentSystem\bin\TcuAppointmentSystem.dll
+C:\Users\user\AndroidStudioProjects\E2019_Grp3\TcuAppointmentSystem\TcuAppointmentSystem\bin\TcuAppointmentSystem.pdb
+C:\Users\user\AndroidStudioProjects\E2019_Grp3\TcuAppointmentSystem\TcuAppointmentSystem\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Users\user\AndroidStudioProjects\E2019_Grp3\TcuAppointmentSystem\TcuAppointmentSystem\bin\Microsoft.AI.DependencyCollector.dll
+C:\Users\user\AndroidStudioProjects\E2019_Grp3\TcuAppointmentSystem\TcuAppointmentSystem\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Users\user\AndroidStudioProjects\E2019_Grp3\TcuAppointmentSystem\TcuAppointmentSystem\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Users\user\AndroidStudioProjects\E2019_Grp3\TcuAppointmentSystem\TcuAppointmentSystem\bin\Microsoft.AI.Web.dll
+C:\Users\user\AndroidStudioProjects\E2019_Grp3\TcuAppointmentSystem\TcuAppointmentSystem\bin\Microsoft.AI.WindowsServer.dll
+C:\Users\user\AndroidStudioProjects\E2019_Grp3\TcuAppointmentSystem\TcuAppointmentSystem\bin\Microsoft.ApplicationInsights.dll
+C:\Users\user\AndroidStudioProjects\E2019_Grp3\TcuAppointmentSystem\TcuAppointmentSystem\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\user\AndroidStudioProjects\E2019_Grp3\TcuAppointmentSystem\TcuAppointmentSystem\bin\Microsoft.AI.DependencyCollector.xml
+C:\Users\user\AndroidStudioProjects\E2019_Grp3\TcuAppointmentSystem\TcuAppointmentSystem\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Users\user\AndroidStudioProjects\E2019_Grp3\TcuAppointmentSystem\TcuAppointmentSystem\bin\Microsoft.AI.Web.xml
+C:\Users\user\AndroidStudioProjects\E2019_Grp3\TcuAppointmentSystem\TcuAppointmentSystem\bin\Microsoft.AI.WindowsServer.xml
+C:\Users\user\AndroidStudioProjects\E2019_Grp3\TcuAppointmentSystem\TcuAppointmentSystem\bin\Microsoft.ApplicationInsights.xml
+C:\Users\user\AndroidStudioProjects\E2019_Grp3\TcuAppointmentSystem\TcuAppointmentSystem\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\user\AndroidStudioProjects\E2019_Grp3\TcuAppointmentSystem\TcuAppointmentSystem\obj\Debug\TcuAppointmentSystem.csproj.AssemblyReference.cache
+C:\Users\user\AndroidStudioProjects\E2019_Grp3\TcuAppointmentSystem\TcuAppointmentSystem\obj\Debug\TcuAppointmentSystem.csproj.CoreCompileInputs.cache
+C:\Users\user\AndroidStudioProjects\E2019_Grp3\TcuAppointmentSystem\TcuAppointmentSystem\obj\Debug\TcuAppointmentSystem.csproj.CopyComplete
+C:\Users\user\AndroidStudioProjects\E2019_Grp3\TcuAppointmentSystem\TcuAppointmentSystem\obj\Debug\TcuAppointmentSystem.dll
+C:\Users\user\AndroidStudioProjects\E2019_Grp3\TcuAppointmentSystem\TcuAppointmentSystem\obj\Debug\TcuAppointmentSystem.pdb

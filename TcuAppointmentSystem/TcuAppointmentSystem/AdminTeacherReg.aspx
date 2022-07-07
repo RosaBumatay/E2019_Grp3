@@ -18,10 +18,6 @@
             text-align: right;
             width: 926px;
         }
-        .auto-style12 {
-            height: 73px;
-            width: 282px;
-        }
         .auto-style7 {
             height: 73px;
             width: 292px;
@@ -30,10 +26,6 @@
             height: 33px;
             text-align: right;
             width: 926px;
-        }
-        .auto-style14 {
-            height: 33px;
-            width: 282px;
         }
         .auto-style9 {
             height: 33px;
@@ -44,10 +36,6 @@
             text-align: right;
             width: 926px;
         }
-        .auto-style15 {
-            height: 58px;
-            width: 282px;
-        }
         .auto-style10 {
             height: 58px;
             width: 292px;
@@ -55,10 +43,6 @@
         .auto-style17 {
             text-align: right;
             width: 926px;
-            height: 39px;
-        }
-        .auto-style18 {
-            width: 282px;
             height: 39px;
         }
         .auto-style19 {
@@ -69,11 +53,42 @@
             text-align: left;
             width: 926px;
         }
-        .auto-style13 {
-            width: 282px;
-        }
         .auto-style8 {
             width: 292px;
+        }
+        body {
+            background-image: url(assets/bb.jpg);
+            background-size: cover;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        .button {
+            transition-duration: 0.4s;
+            background-color: white;
+            border:2px solid #555555;
+        }
+        .button:hover{
+            background-color: #555555;
+            color:white;
+            
+        }
+        .auto-style20 {
+            height: 73px;
+            width: 284px;
+        }
+        .auto-style21 {
+            height: 33px;
+            width: 284px;
+        }
+        .auto-style22 {
+            height: 58px;
+            width: 284px;
+        }
+        .auto-style23 {
+            width: 284px;
+            height: 39px;
+        }
+        .auto-style24 {
+            width: 284px;
         }
         </style>
 </head>
@@ -88,9 +103,9 @@
         <table class="auto-style2">
             <tr>
                 <td class="auto-style3">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                    <asp:Button ID="Button3" runat="server" align="center" CausesValidation="False" OnClick="Button3_Click1" Text="Get" Width="90px" Height="35px" />
+                    <asp:Button ID="Button3" runat="server" align="center" CausesValidation="False" OnClick="Button3_Click1" Text="Get" Font-Size="Medium" Width="90px" Height="35px" CssClass="button" />
                     Teacher ID:</td>
-                <td class="auto-style12">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <td class="auto-style20">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                     <asp:TextBox ID="Teacherid" runat="server" placeholder="Student ID" Width="280px"></asp:TextBox>
                     <br />
                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </td>
@@ -100,7 +115,7 @@
             </tr>
             <tr>
                 <td class="auto-style5">First Name:</td>
-                <td class="auto-style14">
+                <td class="auto-style21">
                     <asp:TextBox ID="Fname" runat="server" placeholder="First Name" Width="280px"></asp:TextBox>
                 </td>
                 <td class="auto-style9">
@@ -109,7 +124,7 @@
             </tr>
             <tr>
                 <td class="auto-style5">Last Name:</td>
-                <td class="auto-style14">
+                <td class="auto-style21">
                     <asp:TextBox ID="Lname" runat="server" placeholder="Last Name" Width="280px"></asp:TextBox>
                 </td>
                 <td class="auto-style9">
@@ -118,7 +133,7 @@
             </tr>
             <tr>
                 <td class="auto-style5">Department:</td>
-                <td class="auto-style14">
+                <td class="auto-style21">
                     <asp:DropDownList ID="Dept" runat="server" CausesValidation="True" Width="288px">
                         <asp:ListItem Text="--Select Department--"></asp:ListItem>
                         <asp:ListItem>CICT</asp:ListItem>
@@ -135,7 +150,7 @@
             </tr>
             <tr>
                 <td class="auto-style6">Email</td>
-                <td class="auto-style15">
+                <td class="auto-style22">
                     <asp:TextBox ID="Email" runat="server" placeholder="Email" Width="280px"></asp:TextBox>
                 </td>
                 <td class="auto-style10">
@@ -146,20 +161,20 @@
             </tr>
             <tr>
                 <td class="auto-style17"></td>
-                <td class="auto-style18">
-                    <asp:Button ID="Button1" runat="server" align="left" OnClick="Button1_Click" style="height: 35px" Text="Register" Width="112px" />
+                <td class="auto-style23">
+                    <asp:Button ID="Button1" runat="server" align="left" OnClick="Button1_Click" style="height: 35px" Text="Register" Font-Size="Medium" Width="112px" CssClass="button" />
                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                    <asp:Button ID="Button2" runat="server" align="right" CausesValidation="False" OnClick="Button2_Click" style="height: 35px" Text="Clear" Width="112px" />
+                    <asp:Button ID="Button2" runat="server" align="right" CausesValidation="False" OnClick="Button2_Click" style="height: 35px" Text="Clear" Font-Size="Medium" Width="112px" CssClass="button" />
                 </td>
                 <td class="auto-style19"></td>
             </tr>
             <tr>
                 <td class="auto-style11">&nbsp;&nbsp;&nbsp; 
-                    <asp:Button ID="Button6" runat="server" OnClick="Button6_Click" Text="Back" Width="109px" CausesValidation="False" />
+                    <asp:Button ID="Button6" runat="server" OnClick="Button6_Click" Text="Back" Font-Size="Medium" Width="109px" CausesValidation="False" CssClass="button" />
                 </td>
-                <td class="auto-style13">
-                    <asp:Button ID="Button4" runat="server" align="left" CausesValidation="False" OnClientClick="return confirm('Are you sure you want to delete data?')" OnClick="Button4_Click" Text="Delete" Width="112px" />
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<asp:Button ID="Button5" runat="server" OnClientClick="return confirm('Are you sure you want to update data ?')" OnClick="Button5_Click" Text="Update" Width="109px" />
+                <td class="auto-style24">
+                    <asp:Button ID="Button4" runat="server" align="left" CausesValidation="False" OnClientClick="return confirm('Are you sure you want to delete data?')" OnClick="Button4_Click" Text="Delete" Font-Size="Medium" Width="112px" CssClass="button" />
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<asp:Button ID="Button5" runat="server" OnClientClick="return confirm('Are you sure you want to update data ?')" OnClick="Button5_Click" Text="Update" Font-Size="Medium" Width="112px" CssClass="button" />
                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </td>
                 <td class="auto-style8"></td>
             </tr>
